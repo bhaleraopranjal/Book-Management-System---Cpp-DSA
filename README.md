@@ -1,29 +1,24 @@
-# Book-Management-System CPP/DSA
-Problem Statement:
-A Book Management System is required to efficiently organize and manage information about books. The system should support various operations, including adding, removing, searching, updating, and displaying book records based on attributes such as Book ID, Book Name, Author Name, Category, Price, and Rating. Additionally, the system should provide the capability to show details of books written by a specific author, display the top 3 books based on price and rating, and access information about all the books in the database.
 
-Key Requirements:
+This Book Management System is designed to manage a collection of books. It allows users to add, display, delete, search, update, and sort books. The system utilizes a linked list to store book records dynamically.
 
-•
-Add Book: The system should allow users to add new books with their attributes, including Book ID, Book Name, Author Name, Price, and Rating.
+**#Features**
+- Add Book: Insert a new book at a specified position.
+- Display Books: Show all books in the system.
+- Delete Book: Remove a book from a specified position.
+- Search Book: Find books by ID, name, author, category, price range, or rating range.
+- Update Book: Modify the details of an existing book using its ID.
+- Sort Books: Sort the list of books by ID, price, or rating.
 
-•
-Remove Book: Users should be able to remove books from the system, ensuring that associated data is deleted while preserving data integrity.
+**#Requirements**
+- C++ compiler (C++11 or later)
+- Standard libraries for input/output operations
 
-•
-Search Book: The system should facilitate book retrieval by both Book ID and Book Name, enabling users to quickly access book details.
+**#File Structure**
+- linkedList.cpp: Contains the implementation of the linked list and the Book class.
+- main.cpp: The main program file that implements the user interface and handles user interactions.
 
-•
-Show Author's Books: Users should be able to retrieve a list of books written by a specific author, helping readers explore an author's works.
-
-•
-Show Category's Books: Users should be able to retrieve a list of books of specified category, helping readers explore an author's works.
-
-•
-Update Book Data: Users must have the ability to update a book's Price and Rating, providing a means for keeping book information accurate and up-to-date.
-
-•
-Display Sorted Books: The system should provide a feature to display the sorted books based on price and rating, allowing users to see the highest/lowest- priced and highest/lowest- rated books in the collection.
-
-•
-Display All Books: The system should offer the option to display details of all the books in the database, enabling users to access the complete list of books.
+**#Usage Instructions**
+- Upon running the program, you'll be presented with a menu of options.
+- Enter the number corresponding to the action you want to perform.
+- Follow the prompts to enter the required information.
+- To exit the program, select the "Exit" option (7).
